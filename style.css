@@ -11852,19 +11852,11 @@ textarea.form-control-lg {
 }
 * {
   background-color: E1F1FF;
-}
-
-h1, .h1 {
-  font-size: 6em;
+  color: black;
 }
 
 span {
   color: blue;
-}
-
-p {
-  background-color: cornflowerblue;
-  text-align: center;
 }
 
 #visual {
