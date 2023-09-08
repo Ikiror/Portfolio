@@ -11855,6 +11855,10 @@ textarea.form-control-lg {
   color: black;
 }
 
+h1, .h1 {
+  font-size: 8rem !important;
+}
+
 span {
   color: blue;
 }
