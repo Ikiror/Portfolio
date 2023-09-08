@@ -11856,15 +11856,15 @@ textarea.form-control-lg {
 }
 
 h1, .h1 {
-  font-size: 8rem !important;
+  font-size: 6rem !important;
+}
+
+.full-screen {
+  height: 90vh;
 }
 
 span {
   color: blue;
-}
-
-#visual {
-  min-height: 90vh;
 }
 
 /*# sourceMappingURL=style.css.map */

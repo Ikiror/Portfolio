@@ -5,10 +5,14 @@ $display-font-weight: bolder;
     background-color: E1F1FF;
     color:black;
 }
+
 h1{
-    font-size:8rem !important;
+    font-size:6rem !important;
 }
 
+.full-screen {
+    height: 90vh;
+}
 span{
     color:blue;
 }
@@ -17,6 +21,4 @@ span{
 //     text-align:center;
 // }
 
-#visual{
-    min-height: 90vh;
-}
+
