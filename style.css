@@ -11850,8 +11850,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-* {
-  background-color: E1F1FF;
+*, .accordion-item {
+  background-color: white;
   color: black;
 }
 
@@ -11859,12 +11859,34 @@ h1, .h1 {
   font-size: 6rem !important;
 }
 
-.full-screen {
-  height: 90vh;
-}
-
 span {
   color: blue;
+}
+
+a:hover {
+  color: #0C7200;
+}
+
+a:visited {
+  color: #CC0090;
+}
+
+.full-screen {
+  height: 100vh;
+}
+
+.padding {
+  margin-top: 25%;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

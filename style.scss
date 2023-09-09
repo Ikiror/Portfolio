@@ -1,24 +1,58 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss"; 
-$display-font-weight: bolder;
+
+$font-stack: 'Lato', sans-serif;
+$primary-bg-color: white;
+$primary-font-color: black;
+$stand-out-font-color: blue;
+$hover-color:#0C7200;
+$visited-color: #CC0090;
+
+
 // Then add additional custom code here
-*{
-    background-color: E1F1FF;
-    color:black;
+*, .accordion-item{
+    background-color: $primary-bg-color;
+    color:$primary-font-color;
 }
+
 
 h1{
     font-size:6rem !important;
 }
 
-.full-screen {
-    height: 90vh;
-}
 span{
-    color:blue;
+    color:$stand-out-font-color;
 }
-// p{
-//     background-color: cornflowerblue;
-//     text-align:center;
+
+a:hover{
+    color:$hover-color;
+}
+
+a:visited{
+    color:$visited-color;
+}
+.full-screen {
+    height: 100vh;
+}
+
+
+
+.padding {
+    margin-top: 25%;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+// .container-fluid {
+//     display: block;
+//     padding: 6px 12px;
 // }
+
 
 
